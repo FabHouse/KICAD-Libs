@@ -1,0 +1,44 @@
+(footprint "RP-Pico-W" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 9f62bfe5-3584-45c2-b74c-73f1fe8da08a)
+  )
+  (fp_text value "RP-Pico-W" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2a7d4898-6bd4-412d-b360-6eed661f5a78)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp da2ee3bf-944c-4f9f-86b9-45d662c90808)
+  )
+  (fp_line (start -25.5 -10.84) (end 25.5 -10.84)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 8e56fe57-ac43-4eb4-8fca-bf809c6ec8bb))
+  (fp_line (start -25.5 10.16) (end -25.5 -10.84)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 4fac9c2f-cd76-44f4-97c9-5d8f48888e91))
+  (fp_line (start 25.5 -10.84) (end 25.5 10.16)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 430b480e-83d3-4d6d-a53d-6af11fe5bd16))
+  (fp_line (start 25.5 10.16) (end -25.5 10.16)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 1f9a4f00-b2ed-4200-8e02-d9df95bfd2b0))
+  (fp_circle (center -23.5 -5.99) (end -22.5 -5.99)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 6ab082a5-28a2-4656-8124-13a70e77e38e))
+  (fp_circle (center -23.5 5.31) (end -22.5 5.31)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 45c1e1e9-2e30-46ad-a414-3a5e18bb347e))
+  (fp_circle (center 23.5 -5.99) (end 24.5 -5.99)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp f1860126-ec82-4904-8305-539981fa9982))
+  (fp_circle (center 23.5 5.31) (end 24.5 5.31)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp a9d69ffe-6a42-4046-9b4b-bcb3b3e1b23f))
+  (group "" (id 4dd5b88d-f7bc-46d6-b90f-1f56488ae5b9)
+    (members
+      1f9a4f00-b2ed-4200-8e02-d9df95bfd2b0
+      430b480e-83d3-4d6d-a53d-6af11fe5bd16
+      45c1e1e9-2e30-46ad-a414-3a5e18bb347e
+      4fac9c2f-cd76-44f4-97c9-5d8f48888e91
+      6ab082a5-28a2-4656-8124-13a70e77e38e
+      8e56fe57-ac43-4eb4-8fca-bf809c6ec8bb
+      a9d69ffe-6a42-4046-9b4b-bcb3b3e1b23f
+      f1860126-ec82-4904-8305-539981fa9982
+    )
+  )
+)
